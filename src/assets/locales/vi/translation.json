@@ -1,0 +1,12 @@
+{
+    "authorize": {
+        "email": "Email",
+        "password": "Mật khẩu",
+        "confirmPass": "Xác nhận mật khẩu"
+    },
+    "button": {
+        "logIn": "Đăng nhập",
+        "signUp": "Đăng ký",
+        "cancel": "Hủy"
+    }
+}

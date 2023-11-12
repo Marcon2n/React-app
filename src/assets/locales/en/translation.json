@@ -1,0 +1,12 @@
+{
+    "authorize": {
+        "email": "Email",
+        "password": "Password",
+        "confirmPass": "Confirm Password"
+    },
+    "button": {
+        "logIn": "Log In",
+        "signUp": "Sign Up",
+        "cancel": "Cancel"
+    }
+}
