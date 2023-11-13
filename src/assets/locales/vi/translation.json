@@ -46,5 +46,46 @@
         "motive": "Cầu tiến",
         "analytic": "Phân tích",
         "team": "Làm việc nhóm"
+    },
+    "experience": {
+        "title":"kinh nghiệm",
+        "position-1": "fe developer",
+        "position-1-time": "04/2023 - 03/2024",
+        "company-1":"Công ty cổ phần siêu liên kết công nghệ thông tin",
+        "company-1-detail-1":"Sử dụng các framework như Angular, React cùng với Tailwind, Bootstrap, CSS để xây dựng giao diện hệ thống",
+        "company-1-detail-2":"Chịu trách nhiệm về thiết kế wireframe, làm bản vẽ mẫu, tạo mock-up api để cho hệ thống",
+        "position-2": "Chuyên viên mua hàng",
+        "position-2-time": "2019-2022",
+        "company-2":"samsung display việt nam",
+        "company-2-detail-1":"Tìm kiếm nhà cung cấp phù hợp với yêu cầu của bộ phận",
+        "company-2-detail-2":"Đàm phán về điều khoản và làm hợp đồng với nhà cung cấp",
+        "company-2-detail-3":"Lên PO và hỗ trợ bộ phận thanh toán cho nhà cung cấp",
+        "position-3": "Nhân viên mua hàng",
+        "position-3-time": "2017-2019",
+        "company-3":"canon việt nam",
+        "company-3-detail-1":"Kiểm tra báo giá nhà cung cấp",
+        "company-3-detail-2":"Tham gia vào dự án Bộ phận mua hàng để nâng cao chất lượng sản xuất",
+        "company-3-detail-3":"Tham gia và dự án tìm kiếm và đánh giá nhà cung cấp mới phù hợp tiêu chí của CVN"
+    },
+    "education": {
+        "title":"trình độ học vấn",
+        "school-1": "funix",
+        "school-1-time": "2022 - 2023",
+        "school-1-major": "web developer",
+        "school-1-detail-1": "Nắm được kiến thức về phát triển FE (sử dụng ReactJS, Angular,...), nắm được kiến thức cơ bản về BE (sử dụng NodeJS)",
+        "school-1-detail-2": "GPA: 7,2",
+        "school-2": "đại học ngoại thương",
+        "school-2-time": "2016 - 2018",
+        "school-2-major": "thạc sỹ tài chính",
+        "school-2-detail-1": "Nắm được kiến thức chuyên sâu về ngành tài chính",
+        "school-2-detail-2": "GPA: 7,0",
+        "school-3": "đại học thăng long",
+        "school-3-time": "2011 - 2016",
+        "school-3-major": "cử nhân tài chính",
+        "school-3-detail-1": "Nắm được kiến thức cơ bản về tài chính",
+        "school-3-detail-2": "GPA: 7,2"
+    },
+    "project": {
+        "title": "dự án"
     }
 }

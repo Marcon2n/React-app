@@ -46,5 +46,46 @@
         "motive": "Motivation",
         "analytic": "Analytical",
         "team": "Teamwork"
+    },
+    "experience": {
+        "title":"Experience",
+        "position-1": "fe developer",
+        "position-1-time": "04/2023 - 03/2024",
+        "company-1":"nexusti jsc",
+        "company-1-detail-1":"Using Angular, React with Tailwinds, Bootstrap, CSS to build platform",
+        "company-1-detail-2":"In-charge in design, make wireframe, draw mock-up, using mock-up api for building platform ",
+        "position-2": "senior purchaser",
+        "position-2-time": "2019-2022",
+        "company-2":"samsung display vietnam",
+        "company-2-detail-1":"Finding vendor suitable for factory's department require",
+        "company-2-detail-2":"Negotiation and make contract with vendor",
+        "company-2-detail-3":"Issue PO and support department about vendor payment",
+        "position-3": "junior purchaser",
+        "position-3-time": "2017-2019",
+        "company-3":"canon vietnam",
+        "company-3-detail-1":"Evaluating vendor's price",
+        "company-3-detail-2":"Joining Purchase Project to improve working efficiency",
+        "company-3-detail-3":"Joining Project to find vendors and evaluate vendor suitable base on CVN's standard"
+    },
+    "education": {
+        "title":"Education",
+        "school-1": "funix",
+        "school-1-time": "2022 - 2023",
+        "school-1-major": "web developer",
+        "school-1-detail-1": "Having good knowledge in develop FE (ReactJS, Angular), basic knowledge in BE (NodeJS)",
+        "school-1-detail-2": "GPA: 7,2",
+        "school-2": "foreign trade university",
+        "school-2-time": "2016 - 2018",
+        "school-2-major": "master finance",
+        "school-2-detail-1": "Having good knowledge in Finance",
+        "school-2-detail-2": "GPA: 7,0",
+        "school-3": "thang long university",
+        "school-3-time": "2011 - 2016",
+        "school-3-major": "bachelor finance",
+        "school-3-detail-1": "Having knowledge in Finance",
+        "school-3-detail-2": "GPA: 7,2"
+    },
+    "project": {
+        "title": "project"
     }
 }

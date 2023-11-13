@@ -17,11 +17,11 @@ function App() {
   return (
     <div className='flex flex-row w-full relative border w-full'>
       <div className="fixed top-2 right-5">
-        {language !== 'en'?
-        <IconButton onClick={() => onChange('en')}>
+        {language === 'en'?
+        <IconButton onClick={() => onChange('vi')}>
             <ReactCountryFlag countryCode="US" svg/>
         </IconButton>:
-        <IconButton onClick={() => onChange('vi')}>
+        <IconButton onClick={() => onChange('en')}>
             <ReactCountryFlag countryCode="VN" svg/>
         </IconButton>}
       </div>
