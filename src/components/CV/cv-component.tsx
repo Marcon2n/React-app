@@ -8,6 +8,7 @@ import StarIcon from '@mui/icons-material/Star';
 import WorkIcon from '@mui/icons-material/Work';
 import SchoolIcon from '@mui/icons-material/School';
 import IntegrationInstructionsIcon from '@mui/icons-material/IntegrationInstructions';
+import LanguageIcon from '@mui/icons-material/Language';
 import { TFunction } from 'i18next';
 
 interface CVProps {
@@ -241,38 +242,80 @@ export const CVComponent = ({t} : CVProps) => {
             </div>
             <div className="grid grid-cols-3 gap-y-8 gap-x-2 py-2">
                 <div className='px-4'>
-                    <div className='uppercase font-medium'>{t('education.school-1')}</div>
-                    <div className='italic'>{t('education.school-1-time')}</div>
+                    <div className='uppercase font-medium'>{t('project.project-1')}</div>
+                    <div className='italic'>{t('project.project-1-time')}</div>
                 </div>
                 <div className='col-span-2 pr-2'>
-                    <div className='uppercase font-medium'>{t('education.school-1')}</div>
+                    <div className='uppercase font-medium'>{t('project.project-1-purpose')}</div>
                     <ul className='list-disc list-inside pt-2'>
-                        <li>{t('education.school-1-detail-1')}</li>
-                        <li>{t('education.school-1-detail-2')}</li>
+                        <li>{t('project.project-1-detail-1')}</li>
+                        <li>{t('project.project-1-detail-3')}</li>
+                        <li>{t('project.project-1-detail-3')}</li>
                     </ul>
                 </div>
                 <div className='px-4'>
-                    <div className='uppercase font-medium'>{t('education.school-2')}</div>
-                    <div className='italic'>{t('education.school-2-time')}</div>
+                    <div className='uppercase font-medium'>{t('project.project-2')}</div>
+                    <div className='italic'>{t('project.project-2-time')}</div>
                 </div>
                 <div className='col-span-2 pr-2'>
-                    <div className='uppercase font-medium'>{t('education.school-2')}</div>
+                    <div className='uppercase font-medium'>{t('project.project-2-purpose')}</div>
                     <ul className='list-disc list-inside pt-2'>
-                        <li>{t('education.school-2-detail-1')}</li>
-                        <li>{t('education.school-2-detail-2')}</li>
+                        <li>{t('project.project-2-detail-1')}</li>
+                        <li>{t('project.project-2-detail-3')}</li>
+                        <li>{t('project.project-2-detail-3')}</li>
+                        <li>{t('project.project-2-detail-4')}</li>
+                        <li>{t('project.project-2-detail-5')}</li>
+                        <li>{t('project.project-2-detail-6')}</li>
                     </ul>
                 </div>
                 <div className='px-4'>
-                    <div className='uppercase font-medium'>{t('education.school-3')}</div>
-                    <div className='italic'>{t('education.school-3-time')}</div>
+                    <div className='uppercase font-medium'>{t('project.project-3')}</div>
+                    <div className='italic'>{t('project.project-3-time')}</div>
                 </div>
                 <div className='col-span-2 pr-2'>
-                    <div className='uppercase font-medium'>{t('education.school-3')}</div>
+                    <div className='uppercase font-medium'>{t('project.project-3-purpose')}</div>
                     <ul className='list-disc list-inside pt-2'>
-                        <li>{t('education.school-3-detail-1')}</li>
-                        <li>{t('education.school-3-detail-2')}</li>
+                        <li>{t('project.project-3-detail-1')}</li>
+                        <li>{t('project.project-3-detail-3')}</li>
+                        <li>{t('project.project-3-detail-3')}</li>
+                        <li>{t('project.project-3-detail-4')}</li>
+                        <li>{t('project.project-3-detail-5')}</li>
+                        <li>{t('project.project-3-detail-6')}</li>
+                        <li>{t('project.project-3-detail-7')}</li>
                     </ul>
                 </div>
+                <div className='px-4'>
+                    <div className='uppercase font-medium'>{t('project.project-4')}</div>
+                    <div className='italic'>{t('project.project-4-time')}</div>
+                </div>
+                <div className='col-span-2 pr-2'>
+                    <div className='uppercase font-medium'>{t('project.project-4-purpose')}</div>
+                    <ul className='list-disc list-inside pt-2'>
+                        <li>{t('project.project-4-detail-1')}</li>
+                        <li>{t('project.project-4-detail-3')}</li>
+                        <li>{t('project.project-4-detail-3')}</li>
+                        <li>{t('project.project-4-detail-4')}</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    )
+
+    const renderLanguage = () => (
+        <div className='flex flex-col w-full bg-white rounded-[10px] shadow-md py-3'>
+            <div className='flex flex-row gap-x-2 px-4 pb-2 border-b'>
+                <LanguageIcon color='primary'/>
+                <div className='uppercase font-medium text-[#1976d2]'>{t('language.title')}</div>
+            </div>
+            <div className="flex flex-col gap-y-2 px-4 pb-4">
+                <div className='flex flex-row gap-x-2 pt-4'>
+                    <div className='font-medium'>{t('language.vie')}:</div>
+                    <div>{t('language.vie-ex')}</div>
+                </div>
+                <div className='flex flex-row gap-x-2'>
+                    <div className='font-medium'>{t('language.eng')}:</div>
+                    <div>{t('language.eng-ex')}</div>
+                </div>                
             </div>
         </div>
     )
@@ -296,6 +339,7 @@ export const CVComponent = ({t} : CVProps) => {
                     {renderExperiment()}
                     {renderEducation()}
                     {renderProject()}
+                    {renderLanguage()}
                 </div>
             </div>
         </div>

@@ -50,7 +50,7 @@
     "experience": {
         "title":"kinh nghiệm",
         "position-1": "fe developer",
-        "position-1-time": "04/2023 - 03/2024",
+        "position-1-time": "04/2022 - 03/2024",
         "company-1":"Công ty cổ phần siêu liên kết công nghệ thông tin",
         "company-1-detail-1":"Sử dụng các framework như Angular, React cùng với Tailwind, Bootstrap, CSS để xây dựng giao diện hệ thống",
         "company-1-detail-2":"Chịu trách nhiệm về thiết kế wireframe, làm bản vẽ mẫu, tạo mock-up api để cho hệ thống",
@@ -86,6 +86,45 @@
         "school-3-detail-2": "GPA: 7,2"
     },
     "project": {
-        "title": "dự án"
+        "title": "dự án",
+        "project-1": "Console ui",
+        "project-1-time": "04/2022",
+        "project-1-purpose": "Ứng dụng cài đặt phê duyệt và giao diện",
+        "project-1-detail-1": "Ứng dụng dùng để phòng ban nghiệp vụ hoặc các phòng ban có liên quan tiến hành cài đặt luồng phê duyệt cho từng công việc trên hệ thống",
+        "project-1-detail-2": "Thực hiện cài đặt rule base cho luồng phê duyệt, các logic giấy tờ liên quan cho từng chức vụ và từng bước",
+        "project-1-detail-3": "Cài đặt giao diện của báo cáo theo đồ thị trực tuyến, nguồn lấy dữ liệu và các báo cáo cần hiển thị",
+        "project-2": "Cockpit platform",
+        "project-2-time": "10/2022",
+        "project-2-purpose": "Ứng dụng cho quản trị hệ thống",
+        "project-2-detail-1": "Ứng dụng dùng để quản trị viên hệ thống cấu hình dữ liệu cho hệ thống của doanh nghiệp",
+        "project-2-detail-2": "Dashboard hiển thị tình trạng máy chủ, các thông tin về server (tương tự giao diện Dashboard của grafana)",
+        "project-2-detail-3": "Cài đặt database cũng như storage cho các service của hệ thống",
+        "project-2-detail-4": "Cài đặt quản lý thông tin của dock container hệ thống",
+        "project-2-detail-5": "Quản lý các thông tin chung như bản quyền của các ứng dụng, cập nhật phiên bản, lỗi bảo mật",
+        "project-2-detail-6": "Quản lý user và hoạt động của user, cấp quyền, tạo, xóa user, kiểm tra lịch sử hoạt động của user",
+        "project-3": "Crm platform",
+        "project-3-time": "03/2023",
+        "project-3-purpose": "Ứng dụng cho người dùng cuối",
+        "project-3-detail-1": "Ứng dụng có thể chỉnh sửa và cấu hình theo yêu cầu của khách hàng",
+        "project-3-detail-2": "Màn hình sản phẩm thực hiện cài đặt, chỉnh sửa thông tin sản phẩm theo từng chiến dịch hoặc từng thời điểm của doanh nghiệp",
+        "project-3-detail-3": "Màn hình quản lý đối tác và chiến dịch",
+        "project-3-detail-4": "Luồng phê duyệt tương ứng với công việc và quyền hạn của user",
+        "project-3-detail-5": "Màn hình báo cáo liệt kê hoạt động và kết quả của user",
+        "project-3-detail-6": "Màn hình thẩm định dùng để thể hiện kết quả như cac thông tin thẩm định cụ thể (thẩm định thực địa khách hàng, thẩm định tổn thất)",
+        "project-3-detail-7": "Màn hình KPI để quản lý Kpi",
+        "project-4": "Employee manager",
+        "project-4-time": "08/2023",
+        "project-4-purpose": "Ứng dụng cho bộ phận kế toán và HR",
+        "project-4-detail-1": "Quản lý thông tin của nhân viên, tiến hành tạo mới, cập nhật, xóa",
+        "project-4-detail-2": "Quản lý thời gian làm việc của nhân viên theo tháng, năm",
+        "project-4-detail-3": "Quản lý KPI của nhân viên đánh giá tiến độ KPI từng năm",
+        "project-4-detail-4": "Quản lý lương của nhân viên, tự động tính theo quy định công ty và luật định"
+    },
+    "language": {
+        "title": "Ngôn ngữ",
+        "vie": "Tiếng việt",
+        "vie-ex": "Bản địa",
+        "eng": "Tiếng anh",
+        "eng-ex": "Trung cấp (TOEIC: 780)"
     }
 }
